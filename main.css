@@ -4,6 +4,21 @@
     border: 0;
 }
 
-.col {
-    padding: 1%;
+/******************START 320 MEDIA QUERY**********************************/
+@media (min-width: 320px) {
+    .row {
+        padding-left: 10%;
+    }
 }
+/****************END 320 MEDIA QUERY*************************************/
+/******************START 650 MEDIA QUERY**********************************/
+@media (min-width: 650px) {
+    img {
+       max-width: 100%;
+    }  
+
+    .row {
+        padding-left: 1%;
+    }
+}
+/****************END 650 MEDIA QUERY*************************************/
